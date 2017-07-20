@@ -1,3 +1,3 @@
-# common desktop scripts and configs #
+# Desktop scripts and configs #
 
-helpful on development machines using ubuntu (and other linux)
+Just a few helpful boilerplates based on my personal preference.
