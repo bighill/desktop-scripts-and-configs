@@ -1,0 +1,26 @@
+"*":
+  "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnSave: true
+  "atom-material-ui":
+    colors: {}
+    tabs:
+      compactTabs: true
+  "bracket-matcher":
+    highlightMatchingLineNumber: true
+  core:
+    autoHideMenuBar: true
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "ayu-dark-syntax"
+    ]
+  editor:
+    fontSize: 16
+    lineHeight: 1.8
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "9816c3b8-ba95-4ab7-941d-d52e3ba962ca"
+  welcome:
+    showOnStartup: false
