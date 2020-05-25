@@ -18,9 +18,9 @@ call plug#end()
 map <f12> :NERDTreeToggle<CR>
 map <f6> :set list! <bar> hi NonText guifg=gray<CR>
 
-syntax on
-set background=dark
-set termguicolors
+" syntax on
+" set background=dark
+" set termguicolors
 set tabstop=4
 set shiftwidth=4
 
@@ -38,7 +38,9 @@ let g:go_metalinter_autosave = 1
 
 let g:airline_powerline_fonts = 1
 
-let ayucolor="dark"
+" transparent background
+au ColorScheme * hi Normal ctermbg=None
 
-colorscheme ayu
-"colorscheme gruvbox
+let ayucolor="dark"
+"colorscheme ayu
+colorscheme gruvbox
